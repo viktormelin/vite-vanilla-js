@@ -14,8 +14,14 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
+    "path": "^0.12.7",
     "prettier": "^2.8.0",
     "sass": "^1.56.1",
     "vite": "^3.2.3"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE >= 11"
+  ]
 }

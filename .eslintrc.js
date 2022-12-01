@@ -1,7 +1,9 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es2021: true,
+    node: true,
   },
   extends: 'airbnb-base',
   overrides: [],
@@ -19,9 +21,9 @@ module.exports = {
     'no-unused-vars': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     'no-unreachable': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     'no-undef': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
-    'no-restricted-syntax': ['error', 'LabeledStatement', 'WithStatement'],
-    'no-tabs': ['error', { allowIndentationTabs: true }],
-    'comma-dangle': 0,
-    'no-alert': 0,
+    // 'no-restricted-syntax': ['error', 'LabeledStatement', 'WithStatement'],
+    // 'no-tabs': ['error', { allowIndentationTabs: true }],
+    // 'comma-dangle': 0,
+    // 'no-alert': 0,
   },
 };
